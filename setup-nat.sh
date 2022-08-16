@@ -5,9 +5,9 @@ if [ "${EUID}" -ne 0 ]; then
 fi
 
 # xray service
-aa="https://raw.githubusercontent.com/ozipoetra/mantapv2/main/data-xray.sh"
+aa="https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/data-xray.sh"
 # sshws service
-cc="https://raw.githubusercontent.com/ozipoetra/Mantap/main/install-nat.sh"
+cc="https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/install-nat.sh"
 
 #installing script
 wget ${aa} && chmod +x data-xray.sh && ./data-xray.sh
