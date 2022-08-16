@@ -15,3 +15,4 @@ wget https://raw.githubusercontent.com/ozipoetra/Nat-VPS-Installer/main/install-
 
 <b>Credit:</b>
 * Sulaiman SL for his awesome script
+* Ozipoetra (@ozip.cf)
