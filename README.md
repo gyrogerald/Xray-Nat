@@ -5,7 +5,7 @@
 Oneclick installer for ssh websocket, xray, vmess, trojan, trojango, shadowsocks
 
 ```html
-wget https://raw.githubusercontent.com/ozipoetra/Nat-VPS-Installer/main/install-nat.sh && chmod +x install-nat.sh && ./install-nat.sh
+wget https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/setup-nat.sh && chmod +x setup-nat.sh && ./setup-nat.sh
 
 ```
 
