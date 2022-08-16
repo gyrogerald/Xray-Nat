@@ -188,13 +188,13 @@ sudo lsof -t -i tcp:80 -s tcp:listen | sudo xargs kill
 #bash acme.sh --installcert -d $domain --fullchainpath /etc/xray/xray.crt --keypath /etc/xray/xray.key
 
 # custom certificate
-wget https://raw.githubusercontent.com/ozipoetra/mantapv2/main/ozip.crt -O /etc/xray/xray.crt
-wget https://raw.githubusercontent.com/ozipoetra/mantapv2/main/ozip.key -O /etc/xray/xray.key
+wget https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/cert/ozip.crt -O /etc/xray/xray.crt
+wget https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/cert/ozip.key -O /etc/xray/xray.key
 
 
 uuid9=$(cat /proc/sys/kernel/random/uuid)
-uuid1=b8458948-a630-4e6d-809a-230b2223ff3d
-uuid=b8458948-a630-4e6d-809a-230b2223ff3d
+uuid1=bb3f5622-33f5-401e-b0ca-75a8d4c7d396
+uuid=bb3f5622-33f5-401e-b0ca-75a8d4c7d396
 
 
 # // Certificate File
