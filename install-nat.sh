@@ -5,11 +5,11 @@ if [ "${EUID}" -ne 0 ]; then
 fi
 
 # ssh
-aa="https://raw.githubusercontent.com/ozipoetra/Mantap/main/ssh/ssh-vpn.sh"
+aa="https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/ssh/ssh-vpn.sh"
 # ohp
 # bb="https://raw.githubusercontent.com/ozipoetra/Mantap/main/ohp/ohp.sh"
 # ws
-cc="https://raw.githubusercontent.com/ozipoetra/Mantap/main/websocket/edu.sh"
+cc="https://raw.githubusercontent.com/gyrogerald/Xray-Nat/main/websocket/edu.sh"
 
 #installing script
 wget ${aa} && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
